@@ -17,6 +17,7 @@ After the server starts, you can access the docs via http://localhost:8000
 
 ## Deploy as github pages
 
+Refer to [mkdocs: deploy your docs](https://www.mkdocs.org/user-guide/deploying-your-docs/)
 
 ```bash
 # run this at the root of the repo

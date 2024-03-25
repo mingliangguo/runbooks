@@ -9,23 +9,25 @@
       
       
       
+        <link rel="prev" href="../ssl/generate_ssl_key_pairs/">
       
-        <link rel="next" href="devops/secrets/generate_random_secrets/">
+      
+        <link rel="next" href="../../frontend/react/react/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.15">
     
     
       
-        <title>My runbooks</title>
+        <title>Vagrant - My runbooks</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -44,7 +46,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#my-own-runbooks" class="md-skip">
+        <a href="#vagrant" class="md-skip">
           Skip to content
         </a>
       
@@ -86,7 +88,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="My runbooks" class="md-header__button md-logo" aria-label="My runbooks" data-md-component="logo">
+    <a href="../.." title="My runbooks" class="md-header__button md-logo" aria-label="My runbooks" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              My Own Runbooks
+              Vagrant
             
           </span>
         </div>
@@ -207,7 +209,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="My runbooks" class="md-nav__button md-logo" aria-label="My runbooks" data-md-component="logo">
+    <a href="../.." title="My runbooks" class="md-nav__button md-logo" aria-label="My runbooks" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -222,30 +224,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    My Own Runbooks
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -254,62 +236,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deploy-as-github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deploy as github pages
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -318,17 +244,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -342,7 +270,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Devops
@@ -391,7 +319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="devops/secrets/generate_random_secrets/" class="md-nav__link">
+      <a href="../secrets/generate_random_secrets/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -455,7 +383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="devops/ssl/generate_ssl_key_pairs/" class="md-nav__link">
+      <a href="../ssl/generate_ssl_key_pairs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -481,17 +409,19 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
@@ -505,7 +435,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             Vagrant
@@ -516,10 +446,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="devops/vagrant/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Vagrant
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -528,6 +478,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vagrant-for-m1-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vagrant for M1 MacOS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -625,7 +604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="frontend/react/react/" class="md-nav__link">
+      <a href="../../frontend/react/react/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -696,7 +675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="macos/macos/" class="md-nav__link">
+      <a href="../../macos/macos/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -794,7 +773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="python/fastapi/fastapi/" class="md-nav__link">
+      <a href="../../python/fastapi/fastapi/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -900,7 +879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="webapps/authNZ/auth-cli/" class="md-nav__link">
+      <a href="../../webapps/authNZ/auth-cli/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -921,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="webapps/authNZ/auth-integration/" class="md-nav__link">
+      <a href="../../webapps/authNZ/auth-integration/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -942,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="webapps/authNZ/authNZ/" class="md-nav__link">
+      <a href="../../webapps/authNZ/authNZ/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -998,36 +977,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#vagrant-for-m1-macos" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    <span class="md-ellipsis">
-      Project layout
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setup
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deploy-as-github-pages" class="md-nav__link">
-    <span class="md-ellipsis">
-      Deploy as github pages
+      Vagrant for M1 MacOS
     </span>
   </a>
   
@@ -1048,35 +1000,21 @@
                   
 
 
-<h1 id="my-own-runbooks">My Own Runbooks</h1>
-<p>Use this to capture some useful notes during my day-to-day work.</p>
-<p>It's created with <a href="https://www.mkdocs.org">mkdocs.org</a>, visit the website to see more details of it.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="vagrant">Vagrant</h1>
+<h2 id="vagrant-for-m1-macos">Vagrant for M1 MacOS</h2>
+<p>There are two common options to run vagrant on Mac:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>VMWare Fusion as provider</li>
+<li>references: <a href="https://gist.github.com/fatso83/49980bbf065022d36c3a42369479a8df">Installing Vagrant on Apple Silicon Macs (M1, M1X, etc)</a></li>
+<li>qemu as provider</li>
+<li>references: <a href="https://medium.com/@TETRA2000/do-m1-mac-dream-of-x86-linux-117478fc9623">Do M1 Mac Dream of x86 Linux?</a></li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<p>The following example shows how to use qemu as the provider:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>brew<span class="w"> </span>install<span class="w"> </span>qemu
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>vagrant<span class="w"> </span>plugin<span class="w"> </span>install<span class="w"> </span>vagrant-qemu
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>vagrant<span class="w"> </span>init<span class="w"> </span>-m<span class="w"> </span>perk/ubuntu-22.10-arm64
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>vagrant<span class="w"> </span>up
 </code></pre></div>
-<h2 id="setup">Setup</h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mkdocs<span class="w"> </span>new<span class="w"> </span>runbooks
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>mkdocs<span class="w"> </span>get-deps
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>pip<span class="w"> </span>install<span class="w"> </span>mkdocs-material
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>mkdocs<span class="w"> </span>serve
-</code></pre></div>
-<p>After the server starts, you can access the docs via http://localhost:8000</p>
-<h2 id="deploy-as-github-pages">Deploy as github pages</h2>
-<p>Refer to <a href="https://www.mkdocs.org/user-guide/deploying-your-docs/">mkdocs: deploy your docs</a></p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># run this at the root of the repo</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>mkdocs<span class="w"> </span>gh-deploy<span class="w"> </span>
-</code></pre></div>
-<p>After it's done, you can access the webiste with <a href="https://mingliangguo.github.io/runbooks">github-page/runbooks</a>, or with other configurations: <a href="https://mingliang.me/runbooks">mingliang.me/runbooks</a>.</p>
 
 
 
@@ -1123,10 +1061,10 @@ docs/
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.bd41221c.min.js"></script>
+      <script src="../../assets/javascripts/bundle.bd41221c.min.js"></script>
       
     
   </body>

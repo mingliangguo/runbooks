@@ -40,7 +40,7 @@ CURL commands:
 
 ```bash
 export JWT=your_access_token
-curl -H "Authorization: Bearer ${JWT}" https://${okta_dev_domain}7.okta.com/oauth2/default/v1/userinfo
+curl -H "Authorization: Bearer ${JWT}" https://${okta_dev_domain}.okta.com/oauth2/default/v1/userinfo
 ```
 
 

@@ -41,6 +41,8 @@ CURL commands:
 ```bash
 export JWT=your_access_token
 curl -H "Authorization: Bearer ${JWT}" https://${okta_dev_domain}.okta.com/oauth2/default/v1/userinfo
+# get user details
+curl -v -H "Authorization: Bearer ${JWT}"  https://${okta_dev_domain}.okta.com/api/v1/users
 ```
 
 

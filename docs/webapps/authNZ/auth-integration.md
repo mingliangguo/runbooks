@@ -55,3 +55,6 @@ By default, Okta doesn't have a `groups` scope defined, in order to use it and h
 - In the authorization server, define a scope named `groups`, and toggle the option - `Include in public metadata`.
 - Add a claim named `groups`, and make it include in `access token`, and set the filter as `matches regex` with value `.*`, and `Include in` the `groups` scope.
 
+## How okta-react handles the /login/callback request?
+
+In an OAuth flow, when the users finish the authentication flow configured with the oauth provider (here okta), the auth provider will send the request back to the originally configured callback url, i.e. `/login/callback`. This route is typically mapped to [okta-react/src/LoginCallback.tsx](https://github.com/okta/okta-react/blob/master/src/LoginCallback.tsx). It could be a bit confusing how it works. As it is a purely client-side component, how it's possible to handle the redirect? Actually this is quite a standard implementation in a SPA(single page application) context, where any non-existing URLs are mapped to the default home page (e.g. `/` or `/index.html`, etc.), in the default landing page, it has the logic to handle client side routing, where the `/login/callback` should have been registered to the okta's `LoginCallback` component.

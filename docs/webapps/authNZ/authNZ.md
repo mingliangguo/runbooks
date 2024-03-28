@@ -18,8 +18,8 @@ This will bundle both frontend and backend as a single application. And use the 
 - [OKTA: Add user authentication to your React app](https://developer.okta.com/code/react/)
 - [Implementing Okta Authentication In React](https://www.smashingmagazine.com/2022/08/implementing-okta-authentication-react/)
 - FASTAPI Integration
-	- [](https://developer.okta.com/blog/2020/12/17/build-and-secure-an-api-in-python-with-fastapi)
-	  - [github repo: okta-fastapi](https://github.com/oktadev/okta-fastapi/tree/main) Note: it only has the `validate_remotely` implemented, but not `validate_locally`
+	- [Build and Secure an API in Python with FastAPI](https://developer.okta.com/blog/2020/12/17/build-and-secure-an-api-in-python-with-fastapi)
+	  - [github repo: okta-fastapi](https://github.com/oktadev/okta-fastapi/blob/d3f7784cc4eff758b4caca662a03f4e24d184aae/main.py#L54-L91)
 	- [Python FastAPI microservice with Okta and OPA](https://www.stackstalk.com/2021/12/python-fastapi-with-okta.html)
 
 

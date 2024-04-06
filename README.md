@@ -3,6 +3,9 @@
 My own runbook collections.
 
 
+`Make it work, make it right, make it fast. In that order. - by Kent Beck`
+
+
 ## Setup
 
 ```bash

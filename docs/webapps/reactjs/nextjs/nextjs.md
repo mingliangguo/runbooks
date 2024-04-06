@@ -15,3 +15,7 @@ By default, nextjs uses its own path based routing mechanism and doesn't use the
 ## Understand nextjs config
 
 - [What is the significance of the next.config.js file?](https://websolutionmaster.com/blog/what-is-the-significance-of-the-next-config-js-file?trk=article-ssr-frontend-pulse_little-text-block)
+
+## docker build
+
+The nextjs website has pretty good [examples](https://github.com/vercel/next.js/tree/canary/examples/with-docker-compose) to showcase how to build a docker container for nextjs.

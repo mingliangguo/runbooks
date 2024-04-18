@@ -45,6 +45,11 @@ curl -H "Authorization: Bearer ${JWT}" https://${okta_dev_domain}.okta.com/oauth
 curl -v -H "Authorization: Bearer ${JWT}"  https://${okta_dev_domain}.okta.com/api/v1/users
 ```
 
+## Okta token refresh
+
+- [React Okta SDK not making refresh token call automatically](https://devforum.okta.com/t/react-okta-sdk-not-making-refresh-token-call-automatically/25433)
+  - this link provides the screenshot about okta app setup.
+
 
 ## Return user groups in OKTA OAuth flow
 

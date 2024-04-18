@@ -19,3 +19,9 @@ By default, nextjs uses its own path based routing mechanism and doesn't use the
 ## docker build
 
 The nextjs website has pretty good [examples](https://github.com/vercel/next.js/tree/canary/examples/with-docker-compose) to showcase how to build a docker container for nextjs.
+
+
+## Error Handling
+
+- This is a nice repo that showcased how local error boundary and global error can be created: https://github.com/milovangudelj/tests/
+  - also made a fork for my own: https://github.com/mgguo/nextjs-error-handling-tests

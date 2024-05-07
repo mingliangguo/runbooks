@@ -34,3 +34,4 @@ AUTH_TRUST_HOST=http://localhost:3000
 ## Resources
 
 - [How to use NextAuth.js for client-side authentication in Next.js](https://blog.logrocket.com/nextauth-js-client-side-authentication-next-js/)
+- [Auth on the Next.js Edge Runtime with Auth.js (NextAuth 5) and MongoDB](https://blog.stackademic.com/authentication-and-authorization-on-the-edge-with-auth-js-nextauth-5-and-mongodb-5903d7e95f99)

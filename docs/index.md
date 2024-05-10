@@ -41,3 +41,10 @@ mkdocs gh-deploy
 ```
 
 After it's done, you can access the webiste with [github-page/runbooks](https://mingliangguo.github.io/runbooks), or with other configurations: [mingliang.me/runbooks](https://mingliang.me/runbooks).
+
+
+## References
+
+Here I collected some very nice frontend repositories from internet(github):
+
+- [Frontend for home assistant](https://github.com/home-assistant/frontendb)

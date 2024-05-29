@@ -49,3 +49,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 ## Implement a basic health check endpoint
 
 - [gist example](https://gist.github.com/Jarmos-san/0b655a3f75b698833188922b714562e5)
+
+## How to disable access logs for certain endpoints(/health)
+
+- check this github [issue](https://github.com/encode/starlette/issues/864)

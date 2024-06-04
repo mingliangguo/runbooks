@@ -10,6 +10,18 @@ gcloud auth application-default set-quota-project my-awesome-project
 
 You need to authenticate with GCP first before setting the quota project.
 
+### Configure billing project
+
+Ref: https://cloud.google.com/asset-inventory/docs/faq
+
+```bash
+gcloud config list
+gcloud config set billing/quota_project PROJECT_ID
+
+```
+
+- Ref: [sample code with specifying billing project for bigquery](https://github.com/mozilla/bigquery-etl/blob/4659ccd932d805c97a7f34a6ab4a559e95b20d5c/bigquery_etl/cli/query.py#L1016)
+
 
 ## Sample code for GCP Auth
 

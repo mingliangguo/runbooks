@@ -8,4 +8,4 @@
 ### Samples of python logging configuration:
 
 - [python logging config in ini/json/yaml](https://gist.github.com/panamantis/5797dda98b1fa6fab2f739a7aacc5e9d)
-
+- [logs with FastAPI and Uvicorn](https://github.com/tiangolo/fastapi/discussions/7457)
